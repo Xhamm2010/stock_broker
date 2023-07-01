@@ -1,0 +1,70 @@
+{
+  "__comment_0": "app mode which is either 'development' or 'production'",
+  "mode": "development",
+  "__comment_1": "development environment setting",
+  "development": {
+    "__comment_1_1": "database credentials",
+    "database": {
+      "dbms": "mysql",
+      "host": "localhost",
+      "port": null,
+      "name": "stock_broker",
+      "username": "root",
+      "password": ""
+    },
+    "__comment_1_2": "server details",
+    "machine": {
+      "url": "http://localhost/site/",
+      "path": "C:/xampp/htdocs/site/",
+      "backend": "broker-site-mgr"
+    },
+    "__comment_1_3": "other development information",
+    "sitename": "kallista",
+    "sitenameInternal": "kallista",
+    "token": "Y0aUT5i7AmLRPBgD8lmY",
+    "documentPath": "C:/xampp/htdocs/site/document/",
+    "documentUrl": "http://localhost/site/document/",
+    "__comment_1_4": "payment gateway"
+  },
+  "__comment_2": "production enivornement setting",
+  "production": {
+    "__comment_2_1": "database credentials",
+    "database": {
+      "dbms": "mysql",
+      "host": "localhost",
+      "port": null,
+      "name": "dbName",
+      "username": "root",
+      "password": ""
+    },
+    "__comment_2_2": "server details",
+    "machine": {
+      "url": "mysql",
+      "path": "/home/kallista/",
+      "backend": null
+    },
+    "__comment_2_3": "other production information",
+    "sitename": "kallista",
+    "sitenameInternal": "kallista",
+    "token": "Y0aUT5i7AmLRPBgD8lmY",
+    "documentPath": "/home/kallista/document",
+    "documentUrl": "http://localhost/kallista/document/",
+    "__comment_1_4": "payment gateway"
+  },
+  "__comment_3": "user type information",
+  "profileType": {
+    "staff": [
+      "admin",
+      "approver",
+      "clerk"
+    ],
+    "worker": [
+        "worker"
+    ]
+  },
+  "__comment_4": "emails and phone nos to be notify when error occurs on the app",
+  "errorNotifier": {
+    "email": [],
+    "phone": []
+  }  
+}
